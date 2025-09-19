@@ -1,0 +1,44 @@
+[
+  {
+    "id": "p1",
+    "title": "Sigiriya Adventure",
+    "place": "Sigiriya, Sri Lanka",
+    "imageUrl": "https://example.com/sigiriya.jpg",
+    "stars": 24
+  },
+  {
+    "id": "p2",
+    "title": "Yala Safari Experience",
+    "place": "Yala National Park",
+    "imageUrl": "https://example.com/yala.jpg",
+    "stars": 18
+  },
+  {
+    "id": "p3",
+    "title": "Ella Rock Sunrise",
+    "place": "Ella, Sri Lanka",
+    "imageUrl": "https://example.com/ella.jpg",
+    "stars": 32
+  },
+  {
+    "id": "p4",
+    "title": "Mirissa Whale Watching",
+    "place": "Mirissa Beach",
+    "imageUrl": "https://example.com/mirissa.jpg",
+    "stars": 15
+  },
+  {
+    "id": "p5",
+    "title": "Temple of the Tooth",
+    "place": "Kandy, Sri Lanka",
+    "imageUrl": "https://example.com/tooth.jpg",
+    "stars": 21
+  },
+  {
+    "id": "p6",
+    "title": "Galle Fort Walk",
+    "place": "Galle, Sri Lanka",
+    "imageUrl": "https://example.com/galle.jpg",
+    "stars": 27
+  }
+]

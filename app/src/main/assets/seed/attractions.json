@@ -1,0 +1,125 @@
+[
+  {
+    "id": "sigiriya",
+    "name": "Sigiriya Rock Fortress",
+    "location": "Sigiriya",
+    "imageUrl": "https://example.com/sigiriya.jpg",
+    "priceTier": 3,
+    "rating": 4.8,
+    "reviews": 1200,
+    "tags": [
+      "Historical Sites",
+      "Nature & Wildlife"
+    ]
+  },
+  {
+    "id": "ella",
+    "name": "Ella Rock Hike",
+    "location": "Ella",
+    "imageUrl": "https://example.com/ella.jpg",
+    "priceTier": 1,
+    "rating": 4.7,
+    "reviews": 860,
+    "tags": [
+      "Nature & Wildlife"
+    ]
+  },
+  {
+    "id": "yala",
+    "name": "Yala National Park Safari",
+    "location": "Yala",
+    "imageUrl": "https://example.com/yala.jpg",
+    "priceTier": 3,
+    "rating": 4.6,
+    "reviews": 900,
+    "tags": [
+      "Nature & Wildlife"
+    ]
+  },
+  {
+    "id": "tooth",
+    "name": "Temple of the Tooth",
+    "location": "Kandy",
+    "imageUrl": "https://example.com/tooth.jpg",
+    "priceTier": 2,
+    "rating": 4.5,
+    "reviews": 1100,
+    "tags": [
+      "Historical Sites"
+    ]
+  },
+  {
+    "id": "galle",
+    "name": "Galle Fort",
+    "location": "Galle",
+    "imageUrl": "https://example.com/galle.jpg",
+    "priceTier": 2,
+    "rating": 4.6,
+    "reviews": 950,
+    "tags": [
+      "Historical Sites",
+      "Beaches"
+    ]
+  },
+  {
+    "id": "mirissa",
+    "name": "Mirissa Whale Watching",
+    "location": "Mirissa",
+    "imageUrl": "https://example.com/mirissa.jpg",
+    "priceTier": 2,
+    "rating": 4.4,
+    "reviews": 500,
+    "tags": [
+      "Beaches",
+      "Nature & Wildlife"
+    ]
+  },
+  {
+    "id": "anuradhapura",
+    "name": "Anuradhapura Ruins",
+    "location": "Anuradhapura",
+    "imageUrl": "https://example.com/anuradhapura.jpg",
+    "priceTier": 1,
+    "rating": 4.7,
+    "reviews": 780,
+    "tags": [
+      "Historical Sites"
+    ]
+  },
+  {
+    "id": "polonnaruwa",
+    "name": "Polonnaruwa Ancient City",
+    "location": "Polonnaruwa",
+    "imageUrl": "https://example.com/polonnaruwa.jpg",
+    "priceTier": 1,
+    "rating": 4.6,
+    "reviews": 650,
+    "tags": [
+      "Historical Sites"
+    ]
+  },
+  {
+    "id": "hikkaduwa",
+    "name": "Hikkaduwa Beach",
+    "location": "Hikkaduwa",
+    "imageUrl": "https://example.com/hikka.jpg",
+    "priceTier": 1,
+    "rating": 4.3,
+    "reviews": 420,
+    "tags": [
+      "Beaches"
+    ]
+  },
+  {
+    "id": "horton",
+    "name": "Horton Plains",
+    "location": "Nuwara Eliya",
+    "imageUrl": "https://example.com/horton.jpg",
+    "priceTier": 2,
+    "rating": 4.6,
+    "reviews": 540,
+    "tags": [
+      "Nature & Wildlife"
+    ]
+  }
+]
