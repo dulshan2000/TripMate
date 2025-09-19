@@ -7,6 +7,11 @@ plugins {
 }
 
 android {
+
+  compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+  }
   namespace = "com.tripmate"
   compileSdk = 34
 
@@ -28,14 +33,23 @@ android {
       )
     }
   }
+
   buildFeatures {
     compose = true
   }
   composeOptions {
     kotlinCompilerExtensionVersion = "1.5.14"
   }
-  kotlinOptions {
-    jvmTarget = "17"
+
+  kotlin {
+    jvmToolchain(17)
+  }
+
+
+  tasks.withType<org.jetbrains.kotlin.gradle.tasks.KotlinCompile>().configureEach {
+    kotlinOptions {
+      jvmTarget = "17"
+    }
   }
 }
 
@@ -66,5 +80,9 @@ dependencies {
   testImplementation("io.mockk:mockk:1.13.12")
   testImplementation("app.cash.turbine:turbine:1.1.0")
   androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+
+  implementation("com.google.android.material:material:1.12.0")
+
+  implementation("androidx.navigation:navigation-compose:2.7.7")
 }
 

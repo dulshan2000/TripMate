@@ -21,6 +21,11 @@ import com.tripmate.feature.explore.ExploreScreen
 import com.tripmate.feature.plan.PlanScreen
 import com.tripmate.feature.community.CommunityScreen
 import com.tripmate.feature.profile.ProfileScreen
+import androidx.navigation.NavHostController
+import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
+import androidx.navigation.compose.currentBackStackEntryAsState
+import androidx.navigation.compose.rememberNavController
 import com.tripmate.R
 
 sealed class Dest(val route: String, val label: String, @DrawableRes val icon: Int) {
