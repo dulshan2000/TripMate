@@ -1,0 +1,27 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tm_bg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp"/>
+
+        <EditText android:id="@+id/etName" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Full Name" android:background="@drawable/rounded_card"/>
+        <EditText android:id="@+id/etReg" android:layout_width="match_parent" android:layout_height="48dp" android:hint="Registration No" android:layout_marginTop="12dp" android:background="@drawable/rounded_card"/>
+        <EditText android:id="@+id/etRegEmail" android:layout_width="match_parent" android:layout_height="48dp" android:hint="@string/email" android:layout_marginTop="12dp" android:background="@drawable/rounded_card"/>
+        <EditText android:id="@+id/etRegPassword" android:layout_width="match_parent" android:layout_height="48dp" android:hint="@string/password" android:layout_marginTop="12dp" android:background="@drawable/rounded_card" android:inputType="textPassword"/>
+
+        <Button android:id="@+id/btnRegister" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Register" android:layout_marginTop="16dp" android:backgroundTint="@color/tm_accent"/>
+    </LinearLayout>
+</ScrollView>

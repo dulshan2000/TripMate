@@ -1,0 +1,16 @@
+
+<resources>
+    <string name="app_name">TripMate</string>
+    <string name="login">Log In</string>
+    <string name="create_account">Create an account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="remember_me">Remember me</string>
+    <string name="dont_have_account">Don’t have an account?</string>
+    <string name="home">Home</string>
+    <string name="explore">Explore</string>
+    <string name="plan">Plan</string>
+    <string name="community">Community</string>
+    <string name="profile">Profile</string>
+</resources>

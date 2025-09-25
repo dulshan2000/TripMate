@@ -1,0 +1,15 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background='@color/tm_bg'>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="16dp">
+        <EditText android:id='@+id/etName' android:layout_width='match_parent' android:layout_height='48dp' android:hint='Full Name' android:background='@drawable/rounded_card'/>
+        <EditText android:id='@+id/etEmail' android:layout_width='match_parent' android:layout_height='48dp' android:hint='Email' android:layout_marginTop='8dp' android:background='@drawable/rounded_card' android:inputType='textEmailAddress'/>
+        <EditText android:id='@+id/etBio' android:layout_width='match_parent' android:layout_height='48dp' android:hint='Bio' android:layout_marginTop='8dp' android:background='@drawable/rounded_card'/>
+        <LinearLayout android:layout_width='match_parent' android:layout_height='wrap_content' android:orientation='horizontal' android:layout_marginTop='16dp'>
+            <Button android:id='@+id/btnSave' android:layout_width='0dp' android:layout_height='wrap_content' android:layout_weight='1' android:text='Save' />
+            <Button android:id='@+id/btnDelete' android:layout_width='0dp' android:layout_height='wrap_content' android:layout_weight='1' android:text='Delete Profile' android:layout_marginStart='8dp' android:backgroundTint='@color/tm_accent'/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
