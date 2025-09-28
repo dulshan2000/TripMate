@@ -1,0 +1,9 @@
+
+<resources>
+    <style name="Theme.TripMate" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/tm_primary</item>
+        <item name="colorSecondary">@color/tm_accent</item>
+        <item name="android:statusBarColor">@color/tm_primary</item>
+        <item name="android:navigationBarColor">@color/tm_bg</item>
+    </style>
+</resources>

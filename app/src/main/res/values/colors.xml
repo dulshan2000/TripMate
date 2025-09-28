@@ -1,0 +1,11 @@
+
+<resources>
+    <color name="tm_primary">#2A85FF</color>
+    <color name="tm_accent">#FF6A3D</color>
+    <color name="tm_bg">#F5F7FB</color>
+    <color name="tm_card">#FFFFFF</color>
+    <color name="tm_text">#212121</color>
+    <color name="tm_subtext">#6B7280</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+</resources>
